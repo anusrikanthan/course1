@@ -19,7 +19,8 @@
                 <span class="navbar-toggler-icon">
                 </span>
             </button>
-            <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
+            <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41">
+            </a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active"><a class="nav-link" href="./index.html"><span class="fa fa-home"></span>Home</a></li>
@@ -58,7 +59,8 @@
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uthappizza">
                     <div class="media-body">
                         <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span><span class="badge badge-pill badge-secondary">$4.99</span></h2>
-                        <div class="d-none d-sm-block"><p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                        <div class="d-none d-sm-block">
+                            <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                         </div>
                     </div>
                 </div>
@@ -93,9 +95,10 @@
                     <div class="media-body">
                         <h2 class="mt-0">Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
-                        <div class="d-none d-sm-block"><p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
-                            </div>
-                        </div>    
+                        <div class="d-none d-sm-block">
+                            <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                        </div>
+                    </div>    
                 </div>
             </div>
         </div>
@@ -106,77 +109,69 @@
                     <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
                     <div class="card-body">
                         <form id="reserve" method="GET">
-                        <dl class="row">
-                            
-                            <div class="col-12 col-sm-2">Number of Guests
-                            </div>
-                            <div class="col-8">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
-                                    <label class="form-check-label" for="exampleRadios1">
-                                    1
-                                    </label>
+                            <dl class="row">                            
+                                <div class="col-12 col-sm-2">Number of Guests
                                 </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                    <label class="form-check-label" for="exampleRadios2">
-                                    2
-                                    </label>
+                                <div class="col-8">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                        <label class="form-check-label" for="exampleRadios1">
+                                        1
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                        <label class="form-check-label" for="exampleRadios2">
+                                        2
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                                        <label class="form-check-label" for="exampleRadios3">
+                                        3
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                                        <label class="form-check-label" for="exampleRadios4">
+                                        4
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option5">
+                                        <label class="form-check-label" for="exampleRadios5">
+                                        5
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios6" value="option6">
+                                        <label class="form-check-label" for="exampleRadios6">
+                                        6
+                                        </label>
+                                    </div>
                                 </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
-                                    <label class="form-check-label" for="exampleRadios3">
-                                    3
-                                    </label>
+                            </dl>
+                            <dl class="row">
+                                <div class="col-12 col-sm-2">
+                                    Date and Time
                                 </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
-                                    <label class="form-check-label" for="exampleRadios4">
-                                    4
-                                    </label>
+                                <div class="col-12 col-sm-4">
+                                    <input type="text" class="form-control" name="date" id="date" placeholder="Date">
                                 </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option5">
-                                    <label class="form-check-label" for="exampleRadios5">
-                                    5
-                                    </label>
+                                <div class="col-12 col-sm-4">
+                                    <input type="text" class="form-control" name="time" id="time" placeholder="Time">
                                 </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios6" value="option6">
-                                    <label class="form-check-label" for="exampleRadios6">
-                                    6
-                                    </label>
-                                </div>
-                            </div>
-                        </dl>
-                        <dl class="row">
-                            <div class="col-12 col-sm-2">
-                                Date and Time
-                            </div>
-                            <div class="col-12 col-sm-4">
-                                <input type="text" class="form-control" name="date" id="date" placeholder="Date">
-                            </div>
-                            <div class="col-12 col-sm-4">
-                                <input type="text" class="form-control" name="time" id="time" placeholder="Time">
-                            </div>
-                        </dl>
-                        <dl class="row">
-                            <div class="col-4 offset-sm-2">
+                            </dl>
+                            <dl class="row">
+                                <div class="col-4 offset-sm-2">
                                     <button type="submit" class="btn btn-primary">Reserve</button>
-                            </div>
-                        </dl>
-
-                        
-                        
-                        
+                                </div>
+                            </dl>                   
                         </form>
                     </div>
                 </div>  
             </div>
         </div>
-
-
-
     </div>
     
 
@@ -189,7 +184,7 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="./aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-7 col-sm-5">
